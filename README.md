@@ -23,6 +23,7 @@ NAT Instances for Private App Servers:
 NAT (Network Address Translation) instances are deployed in availability zones (1a and 1b) to allow private application servers in the backend to access the internet for updates and fetching packages while maintaining a secure and controlled environment.
 
 This architecture ensures that the e-commerce platform is highly available, scalable, and resilient to failures. The combination of auto-scaling groups, load balancing, multi-AZ database deployment, and networking components allows the infrastructure to efficiently handle varying levels of traffic while providing a reliable and responsive user experience.
+
 ![image](https://github.com/Ernest41k/3-Tier-Infra-Project-Using-Terraform/assets/136405174/bf6bd8a7-a735-460f-ab5e-957e2aba1e76)
 
 
